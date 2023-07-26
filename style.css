@@ -1,40 +1,19 @@
-body {
-  font-family: arial, sans-serif;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 .container {
-  width: 100%;
-  background-color: pink;
-  border: 2px solid blue;
-  justify-content: space-between;
   display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin: 0 auto;
+  width: 94%;
 }
-
-.box {
-  width: 40%;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 768px;
-  }
-  .box {
-    background-color: pink;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  .container {
-    background-color: blue;
-  }
-  #div1 {
-    display: none;
+    width: 640px;
   }
 }
